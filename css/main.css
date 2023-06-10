@@ -39,4 +39,12 @@ header nav .nav-right li a img {
     height: auto;
     border-radius: 50px;
 }
- 
+main  {
+    margin-top: 150px;
+    text-align: center;
+}
+main  img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 40px;    
+}
