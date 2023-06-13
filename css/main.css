@@ -45,6 +45,48 @@ main  {
 }
 main  img {
     width: 350px;
-    height: auto;
+    height: 0 auto;
     margin-bottom: 40px;    
 }
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+
+}
+main .main-input-container {
+    max-width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;   
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0px #20212447;
+}
+main .main-input .search-icon {
+    background-image: url('https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://w7.pngwing.com/pngs/974/464/png-transparent-google-voice-search-logo-google-voice-search-web-search-engine-google-now-google-microphone-search-engine-optimization-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor:pointer;
+}
+
